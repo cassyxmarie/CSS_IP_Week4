@@ -8,12 +8,25 @@
 
 body {
   background-color: pink;
-  max-width: 1200px;
+  // max-width: 1200px;
 }
 
-.trips {
-  img {
-    display: flex;
-    align-content:stretch;
-  }
+.main {
+  display: flex;
 }
+
+.activities {
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+
+  .trips {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    // flex-grow: 1;
+    // flex-shrink: 1;
+  }

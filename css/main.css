@@ -5,11 +5,20 @@
   clear: both; }
 
 body {
-  background-color: pink;
-  max-width: 1200px; }
+  background-color: pink; }
 
-.trips img {
+.main {
+  display: flex; }
+
+.activities {
+  border: 1px solid black;
   display: flex;
-  align-content: stretch; }
+  flex-grow: 1;
+  flex-shrink: 1; }
+
+.trips {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black; }
 
 /*# sourceMappingURL=main.css.map */
