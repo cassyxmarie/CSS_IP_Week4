@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Khula:400,700|Prata);
+.cf:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+body {
+  background-color: pink;
+  max-width: 1200px; }
+
+.trips img {
+  display: flex;
+  align-content: stretch; }
+
+/*# sourceMappingURL=main.css.map */

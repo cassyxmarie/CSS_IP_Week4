@@ -1,0 +1,19 @@
+@import "partials/base";
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  background-color: pink;
+  max-width: 1200px;
+}
+
+.trips {
+  img {
+    display: flex;
+    align-content:stretch;
+  }
+}
