@@ -8,17 +8,22 @@ body {
   background-color: pink; }
 
 .main {
-  display: flex; }
-
-.activities {
-  border: 1px solid black;
   display: flex;
-  flex-grow: 1;
-  flex-shrink: 1; }
+  flex: auto;
+  width: 100%; }
 
 .trips {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black; }
+  border: 1px solid black;
+  flex-flow: row wrap; }
+
+.trips > * {
+  flex: auto;
+  width: 800px; }
+
+.trips > * img {
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=main.css.map */

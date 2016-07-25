@@ -13,20 +13,35 @@ body {
 
 .main {
   display: flex;
+  flex: auto;
+  width: 100%;
 }
-
-.activities {
-    border: 1px solid black;
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
-
 
   .trips {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
-    // flex-grow: 1;
+    flex-flow: row wrap;
     // flex-shrink: 1;
   }
+
+  .trips > * {
+  	flex: auto;
+  	width: 800px;
+  }
+  .trips > * img {
+  	width: 100%;
+  	height: auto;
+  }
+
+  // #raft, #backpack, #photo {
+  //   display: flex;
+  //   flex-grow: 1;
+  //   justify-content: space-between;
+  // }
+  //
+  // #camp, #canoe, #custom {
+  //   display: flex;
+  //   flex-grow: 3;
+  //   justify-content: space-between;
+  // }
