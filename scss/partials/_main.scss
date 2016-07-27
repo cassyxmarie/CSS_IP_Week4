@@ -1,0 +1,116 @@
+.main {
+  width: 100%;
+  height: 850px;
+  border: 1px solid white;
+}
+
+.small-title {
+  font-family: "prata";
+  font-size: 20px;
+  color: white;
+  margin-left: 7vw;
+  position: relative;
+  top: 17vh;
+
+}
+
+.hamburger {
+  opacity: 0;
+  background: white;
+  border-radius: 20%;
+  width: 30px;
+  height: 30px;
+  border: .5px solid #eaeaea;
+  position: relative;
+  top: 19vh;
+  float: right;
+  right: 8vw;
+
+    @media only screen and (max-width: 1000px) {
+      opacity: 100;
+    }
+}
+
+.burgerLine {
+  width: 20px;
+  border: .5px solid #333333;
+  background: #333333;
+  margin: 2px;
+  position: relative;
+  top: 8px;
+  left: 1.5px;
+}
+
+.nav {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  position: relative;
+  top: 10vh;
+  right: 6vw;
+
+  @media only screen and (max-width: 1000px) {
+  display: none;
+  }
+
+  a {
+    font-family: "Khula";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    text-decoration: none;
+
+    &:hover {
+      color: #dc7725;
+    }
+  }
+}
+
+.alaska {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 45vw;
+  top: 18vh;
+}
+
+.preheader {
+  font-family: "khula";
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 18vh;
+}
+
+.large-title {
+  font-family: "prata";
+  font-size: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  top: 15vh;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  @media only screen and (max-width: 1000px) {
+  font-size: 4em;
+  }
+}
+
+.line {
+  width: 20vw;
+  height: 1vh;
+  background: white;
+  position: relative;
+  top: 18vh;
+  left: 39vw;
+}
