@@ -1,20 +1,3 @@
-@import "partials/base";
-
-.cf:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-body {
-  background-color: #343433;
-  background-image: url("../img/main.jpg");
-  background-position: top left;
-  background-repeat: no-repeat;
-  min-width: 550px;
-  max-width: 1700px;
-}
-
 .nav2 {
   width: 100%;
   height: 100px;
@@ -117,16 +100,3 @@ body {
       color: #dc7725;
     }
   }
-
-
-  // #raft, #backpack, #photo {
-  //   display: flex;
-  //   flex-grow: 1;
-  //   justify-content: space-between;
-  // }
-  //
-  // #camp, #canoe, #custom {
-  //   display: flex;
-  //   flex-grow: 3;
-  //   justify-content: space-between;
-  // }
