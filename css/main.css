@@ -44,7 +44,6 @@
   position: relative;
   top: 10vh;
   right: 6vw;
-  border: 1px solid white;
   max-width: 750px; }
   @media only screen and (max-width: 1000px) {
     .nav {
@@ -122,8 +121,7 @@ body {
   background-position: top left;
   background-repeat: no-repeat;
   min-width: 550px;
-  max-width: 1700px;
-  border: 2px solid white; }
+  max-width: 1700px; }
 
 .nav2 {
   width: 100%;
@@ -188,5 +186,17 @@ body {
 #camp, #backpack, #photo, #custom {
   display: flex;
   flex: 1; }
+
+.tripPic {
+  position: relative; }
+
+.description {
+  font-family: "khula";
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 20px; }
 
 /*# sourceMappingURL=main.css.map */
