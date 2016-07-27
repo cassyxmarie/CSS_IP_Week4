@@ -9,9 +9,11 @@
 body {
   background-color: #343433;
   background-image: url("../img/main.jpg");
-  background-position: top;
+  background-position: top left;
   background-repeat: no-repeat;
   min-width: 550px;
+  max-width: 1700px;
+  border: 2px solid white;
 }
 
 .nav2 {
@@ -49,6 +51,7 @@ body {
     // border: 1px solid white;
     flex-flow: row wrap;
     align-content: flex-start;
+    max-width: 1700px;
 
 
     // flex-shrink: 1;
