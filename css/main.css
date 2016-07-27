@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Khula:400,700|Prata);
 .main {
   width: 100%;
-  height: 850px;
-  border: 1px solid white; }
+  height: 850px; }
 
 .small-title {
   font-family: "prata";
@@ -20,7 +19,7 @@
   height: 30px;
   border: .5px solid #eaeaea;
   position: relative;
-  top: 19vh;
+  top: 16vh;
   float: right;
   right: 8vw; }
   @media only screen and (max-width: 1000px) {
@@ -114,7 +113,6 @@ body {
 .nav2 {
   width: 100%;
   height: 100px;
-  border: 1px solid white;
   display: flex;
   align-items: center;
   padding-left: 5vw;
@@ -138,7 +136,6 @@ body {
 .trips {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid white;
   flex-flow: row wrap;
   align-content: flex-start; }
 

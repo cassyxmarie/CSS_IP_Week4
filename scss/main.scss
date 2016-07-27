@@ -17,7 +17,7 @@ body {
 .nav2 {
   width: 100%;
   height: 100px;
-  border: 1px solid white;
+  // border: 1px solid white;
   display: flex;
   align-items: center;
   padding-left: 5vw;
@@ -46,7 +46,7 @@ body {
   .trips {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid white;
+    // border: 1px solid white;
     flex-flow: row wrap;
     align-content: flex-start;
 
