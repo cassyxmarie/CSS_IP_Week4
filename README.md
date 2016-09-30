@@ -4,6 +4,8 @@
 
 #### By _**Cassandra Culkins**_
 
+![alt text](http://i.imgur.com/f3ZUrme.png "Logo Title Text 1")
+
 ## Description
 
 _This application is a responsive, Sass created front-end that was created to mimic the Arctic Wild website._
